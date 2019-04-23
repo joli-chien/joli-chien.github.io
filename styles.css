@@ -3,7 +3,6 @@ body{
     margin-right: 20%;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color:rgb(255, 236, 239);
 }
 
 h1{
@@ -11,21 +10,18 @@ h1{
     font-weight: 300;
     font-size: 3em;
     text-transform: uppercase;
-    padding-top:50px;
-    padding-bottom: 50px;
-    background: white;
+    padding-top:20px;
+    padding-bottom: 20px;
     text-align: center;
-    color: rgb(206, 57, 82);
 }
 h2{
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     padding-top: 20px;
-    color:rgb(118, 169, 236);
+
 }
 
 section{
-    background: white;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 20px;
@@ -39,11 +35,11 @@ p{
 a{
     text-decoration: none;
     font-weight: 300;
-    color:rgb(226, 113, 132);
+
 }
 
 footer{
-    background: white;
+
     padding: 20px;
 }
 
@@ -52,7 +48,6 @@ nav{
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     padding: 10px;
-    background: white;
     margin-bottom: 30px;
 }
 
