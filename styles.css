@@ -1,13 +1,11 @@
 body{
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background: rgb(238, 233, 233);
+    margin-bottom: 3rem;
+    background: rgb(210, 250, 255);
 }
 header{
     background: white;
-    padding-bottom: 0.25rem;
     margin: none;
 }
 h1{
@@ -15,16 +13,17 @@ h1{
     font-weight: 300;
     font-size: 3em;
     text-transform: uppercase;
-    padding-top:20px;
+    padding-top:3rem;
     padding-bottom: 20px;
     text-align: center;
     text-size-adjust: auto;
-    color: rgb(255, 106, 151);
+    color: rgb(255, 153, 70);
 }
 h2{
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     padding-top: 1rem;
+    color: rgb(255, 153, 70);
 
 }
 
@@ -32,7 +31,7 @@ section{
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 2rem;
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
     overflow: hidden;
     background: white;
     margin-top: 2rem;
@@ -41,6 +40,7 @@ section{
 img{
     float: left;
     padding-right: 1rem;
+    padding-bottom: 0.25rem;
     width: 30%;
     min-width: 150px;
     max-width: 300px;
@@ -52,7 +52,7 @@ p{
 p a{
     float: right;
     color:white;
-    background: rgb(123, 184, 255);
+    background: rgb(255, 153, 70);
     padding:0.75rem;
     border-radius: 20px;
     font-size: 1em;
@@ -61,9 +61,23 @@ p a{
 a{
     text-decoration: none;
     font-weight: 300;
-    color: rgb(123, 184, 255);
+    color: rgb(129, 174, 182);
     font-size:1.1em;
+}
+a:hover{
+    color: rgb(255, 179, 116);
+}
+p a:hover{
+    background: rgb(129, 174, 182);
+    color:white;
+}
 
+ul li{
+    list-style-type: none;
+}
+
+ul li a{
+    font-family:  'Open Sans', sans-serif;
 }
 
 footer{
@@ -74,7 +88,7 @@ footer{
 }
 
 footer a{
-    padding: 1rem;
+    padding: 0.75rem;
     background: white;
     border-radius: 20px;
 }
@@ -83,8 +97,8 @@ footer a{
 nav{
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
-    padding: 10px;
-    margin-bottom: 30px;
+    padding: 1.2rem;
+    background: rgb(129, 174, 182);
 }
 
 nav ul{
@@ -96,4 +110,7 @@ nav ul{
 nav ul li{
     flex: 1;
     list-style-type: none;
+}
+nav ul li a{
+    color: white;
 }
