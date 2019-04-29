@@ -1,10 +1,15 @@
 body{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 50px;
     margin-bottom: 50px;
+    background: rgb(238, 233, 233);
 }
-
+header{
+    background: white;
+    padding-bottom: 0.25rem;
+    margin: none;
+}
 h1{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -13,34 +18,65 @@ h1{
     padding-top:20px;
     padding-bottom: 20px;
     text-align: center;
+    text-size-adjust: auto;
+    color: rgb(255, 106, 151);
 }
 h2{
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
-    padding-top: 20px;
+    padding-top: 1rem;
 
 }
 
 section{
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
     margin-bottom: 30px;
+    overflow: hidden;
+    background: white;
+    margin-top: 2rem;
+}
+
+img{
+    float: left;
+    padding-right: 1rem;
+    width: 30%;
+    min-width: 150px;
+    max-width: 300px;
 }
 p{
     font-family:  'Open Sans', sans-serif;
     font-size: 1em;
 }
+p a{
+    float: right;
+    color:white;
+    background: rgb(123, 184, 255);
+    padding:0.75rem;
+    border-radius: 20px;
+    font-size: 1em;
+
+}
 a{
     text-decoration: none;
     font-weight: 300;
+    color: rgb(123, 184, 255);
+    font-size:1.1em;
 
 }
 
 footer{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2rem;
+}
 
-    padding: 20px;
+footer a{
+    padding: 1rem;
+    background: white;
+    border-radius: 20px;
 }
 
 /************** Nav Styles ****************/
@@ -55,6 +91,7 @@ nav ul{
     display: flex;
     text-align: center;
     justify-content: space-around;
+    margin: auto;
 }
 nav ul li{
     flex: 1;
