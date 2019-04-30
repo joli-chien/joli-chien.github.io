@@ -92,6 +92,13 @@ footer a{
     background: white;
     border-radius: 20px;
 }
+.about h2{
+    text-align: center;
+}
+.contact{
+    text-align: center;
+    line-height: none;
+}
 
 /************** Nav Styles ****************/
 nav{
