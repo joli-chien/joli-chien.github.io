@@ -9,6 +9,7 @@ h1{
     font-family: 'Montserrat', sans-serif;
     color: #f16278;
     text-transform: uppercase;
+    font-size: 1.5rem;
 }
 
 a{
@@ -23,7 +24,15 @@ a:hover{
 
 ul li{
     list-style-type: none;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+}
+
+.button{
+    font-size: 0.75rem;
+}
+.button a{
+    border-radius: 2rem;
+    border-style: solid;
 }
 
 /**************** Nav Style ****************/
@@ -65,8 +74,18 @@ ul li{
     width: 25%;
     min-width: 15rem;
 }
+section{
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: auto;
+}
+section p{
+    float: right;
+}
 
-
+footer{
+    text-align: center;
+}
 
 
 
@@ -76,3 +95,4 @@ ul li{
     #title{
         margin-top:25%;
     }
+}
