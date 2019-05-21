@@ -78,8 +78,12 @@ section{
     margin-left: 10%;
     margin-right: 10%;
     overflow: auto;
+    padding-bottom: 25%;
 }
 section p{
+    float: right;
+}
+section a{
     float: right;
 }
 
