@@ -1,0 +1,76 @@
+/* for card layout */
+.gallery-row {
+    margin-bottom: 2rem;
+}
+
+.card-body a{ /* changes the style of a only when it's inside of card-body */
+    text-decoration: none;
+    color: black;
+}
+
+.card-body a:hover{ /* changes the style of a ON HOVER and only when it's inside of card-body */
+    color: blueviolet;
+}
+
+
+.media{
+    width: 40%;
+    min-width: 20em;
+    margin: auto;
+
+}
+
+.content{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Barlow', sans-serif;
+}
+
+.content h1{
+    padding-top: 1em;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 1em;
+    
+}
+
+.cultureBackground{
+    background: linear-gradient(to bottom,  #6b566d 0%,#c98a8d 97%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b566d', endColorstr='#c98a8d',GradientType=0 ); /* IE6-9 */
+    color: #FDEBF3;
+}
+
+
+.navbar{
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 1;
+    z-index: 1;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+}
+.navbar-nav{
+    position: fixed;
+    opacity: 1;
+    z-index: 1;
+    width: 100%;
+    margin: auto;
+    background: white;
+
+}
+nav ul{
+    display: flex;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+nav ul li{
+    flex: 1;
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+
+}

@@ -4,10 +4,18 @@
     {{ partial "head.html" . }}
     {{/*  imports "head.html" from the partials/ folder in layouts/  */}}
     {{/*  the second argument is the context for variables in "head.html" and using "." means use the same variable namespace as this document  */}}
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Barlow|Montserrat:800" rel="stylesheet">
+
 </head>
 <body>
+
     {{ partial "navbar.html" (dict "context" . "originPage" "project") }}
-    <div class="container">
+   <!-- <div class="container"> -->
+        <div class="content">
         <h1>{{ .Title }}</h1>
         
         {{/*  Each project has either a project image or a project video  */}}
@@ -15,6 +23,13 @@
         {{/*  Youtube videos and Vimeo videos are handled differently. If you have another video type 
             then you'll need to add code to handle that new video type  */}}
         {{/*  If there's no project video, the project image is displayed in the header  */}}
+      
+        {{ .Content }}
+        {{/*  You can add more images and videos in the content as well! 
+            Do that in the .md file for the project  */}}  
+        </div>
+      
+        <div >
         {{ if .Params.projectVideo }}
             {{ if eq .Params.projectVideoType "youtube" }}
                 <div class="embed-responsive embed-responsive-16by9">
@@ -32,17 +47,14 @@
         {{ else }}
             {{ if .Params.projectImage }}
                 {{ $img:= .Resources.GetMatch .Params.projectImage }}
-                <img src="{{ $img.RelPermalink }}" />
+                <img class="media" src="{{ $img.RelPermalink }}" />
             {{ else }}
                 <p>THERE IS NO PROJECT IMAGE OR PROJECT VIDEO ASSOCIATED WITH THIS PROJECT!!!</p>
                 <p>TODO: ADD A PROJECT IMAGE OR PROJECT VIDEO</p>
         {{ end }}
         {{ end }}
+        </div>
 
-        {{ .Content }}
-        {{/*  You can add more images and videos in the content as well! 
-            Do that in the .md file for the project  */}}
-     
     </div>
     
 </body>
