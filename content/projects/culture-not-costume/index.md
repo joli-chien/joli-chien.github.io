@@ -1,6 +1,7 @@
 
 
 +++
+
     #this is the "front matter" of the template of a project. It's the variables associated with the file
     #this portion is written in TOML (Tom's Obvious Minimal Language)
     
@@ -31,16 +32,11 @@ The slogan “Culture Not Costume” was chosen because it is short, easy to rem
 
 
 
-
-
 <body class="cultureBackground">
-    <img class="media" src="culture2.png">
-    <img class="media" src="culture3.png">
+    <p><img class="extraMedia" src="culture2.png"></p>
+    <p><img class="extraMedia" src="culture3.png"></p>
 
 </body>
-
-
-
 
 <!--a new line in markdown will not be displayed in the browser.
 \
@@ -56,4 +52,3 @@ Below is a list
 - hyphens make bullets
 + plusses make bullets
 * you can choose! -->
-
