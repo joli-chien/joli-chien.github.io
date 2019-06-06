@@ -9,6 +9,8 @@
         {{ $img:= .Resources.GetMatch .Params.projectImage }}
         {{ $imgThumb := $img.Fill "400x400" }}
         {{/*  Resizes and crops the project image to 400 X 400 so that we get a perfect square which loads quickly  */}}
+
+       
         <div class="col-4">
             <div class="card h-100 border-0">
                 <img src="{{ $imgThumb.RelPermalink }}" class="card-img-top" alt="...">

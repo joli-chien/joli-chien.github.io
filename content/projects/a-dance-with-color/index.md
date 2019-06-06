@@ -1,23 +1,21 @@
-
 +++
-
     #this is the "front matter" of the template of a project. It's the variables associated with the file
     #this portion is written in TOML (Tom's Obvious Minimal Language)
     
-    title = "Culture Not Costume"
+    title = "A Dance With Color"
     #replace takes the filename and replaces all hyphens with spaces so that when it appears on your page, it's using spaces. The filename is used in the URL and URLs can't have spaces so use hyphen in the filename.
     #title converts to title-case (using capital letters for principal words only)
     
-    date = 2019-05-21T10:46:35-07:00 #the date the file was created
+    date = 2019-05-30T10:00:11-07:00 #the date the file was created
 
     
-    shortDescription = "As an individual of color that presides in the United States of America, it is difficult not to be aware of the very prevalent issues of cultural appropriation in today’s society, especially in fashion and pop culture. This project, Culture Not Costume, is a series of three posters based upon identifying the appropriation of traditional Native American headdresses, an act that has persisted and continues to persist in the fashion industry."
+    shortDescription = "I have always enjoyed drawing people and creating unique pieces of clothing for them. For this project, I designed the figure with a party theme in mind, hence the flouncy cocktail dress, the long flowing hair, and the energetic balloons in the background."
     projectVideo = ""
     #Project video is just the unique part of the URL  
     # For example, if the link is https://vimeo.com/285189099 then the unique part is  285189099
     projectVideoType = ""
     #Enter "youtube" or "vimeo". You can add other video types as well by editing single.html 
-    projectImage = "culture.png"
+    projectImage = "compound.png"
     #Enter the filename only. For example, "metropolis_album.jpg" 
     #This image should be saved in the project folder with the name of your project 
     showImageOnProjectPage = false
@@ -25,8 +23,6 @@
     #Alt text is the text that gets read by screenreaders for accessibility (typically for the visually impaired) 
 
 +++
-
-
 <section class="overview">
     <h2 class="sectionTitle">Overview</h2>
     <p>Tools: Adobe Illustrator</p>
@@ -34,24 +30,22 @@
     <p>Deliverables: Graphic poster designs</p>
 </section>
 
-
-
 <h2 class="sectionTitle">Project Summary</h2>
-As an individual of color that presides in the United States of America, it is difficult not to be aware of the very prevalent issues of cultural appropriation in today’s society, especially in fashion and pop culture. This project, Culture Not Costume, is based upon identifying the appropriation of traditional Native American headdresses, an act that has persisted and continues to persist in the fashion industry.
+I have always enjoyed drawing people and creating unique pieces of clothing for them. For this project, I designed the figure with a party theme in mind, hence the flouncy cocktail dress, the long flowing hair, and the energetic balloons in the background.
 
-The slogan “Culture Not Costume” was chosen because it is short, easy to remember, and easy to understand. Paired with a legible bold typeface, casual browsers are able to quickly grasp the concept behind these posters.
+The four color schemes that this project studies are complementary, triadic, analogous, and compound, each color scheme aiming to bring out a different aspect of the design. Given the flat looking nature of digital design, I created the effect of shading and shadow by utilizing darker and lighter shades and tints of each color palette to give the designs more depth. Additionally, I experimented with the use of a gradient and some circular shadows on the floor to create a spotlight to ground the figure. Overall, this was a project that I greatly enjoyed creating and I approached it with a playfulness that was reminiscent of the childhood joy that I experienced from playing dress up with dolls as a young girl.
 
 
-
-<body class="culture">
+<body class="color">
     <div class="mediaformat">
-        <img class="extraMedia" src="culture.png">
-        <img class="extraMedia" src="culture2.png">
-        <img class="extraMedia" src="culture3.png">
+        <img class="extraMedia" src="compound.png">
+        <img class="extraMedia" src="complementary.png">
+        <img class="extraMedia" src="analogous.png">
+        <img class="extraMedia" src="triadic.png">
     </div>
 </body>
 
-<!--a new line in markdown will not be displayed in the browser.
+<!-- a new line in markdown will not be displayed in the browser. 
 \
 \
 \ 
@@ -64,4 +58,5 @@ Below is a list
 * asterisks make bullets
 - hyphens make bullets
 + plusses make bullets
-* you can choose! -->
+* you can choose!
+-->

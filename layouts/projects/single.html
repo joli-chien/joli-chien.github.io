@@ -48,19 +48,22 @@
             {{ end }}
         {{ else }}
             {{ if .Params.projectImage }}
-                {{ $img:= .Resources.GetMatch .Params.projectImage }}
-                <img class="media" src="{{ $img.RelPermalink }}" />
+                {{ if .Params.showImageOnProjectPage }}
+                    {{ $img:= .Resources.GetMatch .Params.projectImage }}
+                    <img class="media" src="{{ $img.RelPermalink }}" />
+                {{ end }}
             {{ else }}
                 <p>THERE IS NO PROJECT IMAGE OR PROJECT VIDEO ASSOCIATED WITH THIS PROJECT!!!</p>
                 <p>TODO: ADD A PROJECT IMAGE OR PROJECT VIDEO</p>
         {{ end }}
         {{ end }}
         </div>
+        
 
     </div>
 
     <footer>
-        <h1>Contact</h1>
+        <h1>Contact Me</h1>
         <p>Email: &#106;&#099;&#104;&#105;&#101;&#110;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;</p>
         <p>Phone: (408)828-4945</p>
         <p id="socialmedia"><a href="https://www.linkedin.com/in/jolichien/"><i class="fab fa-linkedin"></i></a> <a href="https://www.instagram.com/jolisea/?hl=en"><i class="fab fa-instagram"></i></a> <a href="https://www.facebook.com/joli.chien.7"><i class="fab fa-facebook-square"></i></a></p>
