@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-06-06T01:20:25-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/projects/</loc>
+    <lastmod>2019-06-06T01:20:25-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/projects/rainboba/</loc>
+    <lastmod>2019-06-06T01:20:25-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/lilys-logo/</loc>
+    <lastmod>2019-06-06T01:20:11-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/alpha-phi-omega-rush-shirt/</loc>
+    <lastmod>2019-06-05T23:58:59-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/a-dance-with-color/</loc>
+    <lastmod>2019-05-30T10:00:11-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/culture-not-costume/</loc>
+    <lastmod>2019-05-21T10:46:35-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about-me/</loc>
+    <lastmod>2019-05-19T17:03:24-07:00</lastmod>
+  </url>
+  
+</urlset>
