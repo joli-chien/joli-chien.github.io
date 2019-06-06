@@ -234,6 +234,23 @@ footer p{
     color:rgb(160, 55, 71);
 }
 
+
+#title{
+    width: 100%;
+    height: 100%;
+    margin-top:13%;
+    margin-bottom:10%;
+}
+
+#title img{
+    display: block;
+    align-content: center;
+    margin: auto;
+    width: 25%;
+    min-width: 15rem;
+}
+
+
 /************** PROJECT PAGE STYLES ******************/
 
 
@@ -307,5 +324,8 @@ footer p{
     .scrolling-text{
         margin-left: 10%;
         margin-right: 10%;
+    }
+    #title{
+        margin-top:25%;
     }
 }
