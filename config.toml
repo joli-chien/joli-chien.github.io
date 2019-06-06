@@ -1,4 +1,5 @@
-baseURL = "http://joli-chien.github.io/"
+baseURL = ""
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Joli Chien's Portfolio"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+publishDir = "../joli-chien.github.io"

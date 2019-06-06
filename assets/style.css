@@ -96,15 +96,16 @@ h5{
     float: right;
     padding: 0.5em;
     border-radius: 1em;
+    border-image-slice: 1;
     color: #F16278;
-    border: solid 0.5em;
+    border: solid 0.4em;
     margin-top: 20%;
     
     
 }
 #scrolling-link:hover{
     text-decoration: none;
-    color: rgb(160, 55, 71);
+    color: rgb(160, 55, 71); /*#f6f086 */
 }
 
 .scrolling-bg{
