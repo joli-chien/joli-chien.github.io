@@ -183,7 +183,6 @@ nav ul li{
     background: linear-gradient(to right, #f6f086 0%,#f388a3 100%); 
     padding-top: 3em;
     padding-bottom: 10%;
-    overflow: hidden;
 }
 
 #about-me h1{
@@ -198,9 +197,8 @@ nav ul li{
 }
 
 #about-me p{
-    float: right;
     margin-right: 10%;
-    margin-left: 55%;
+    margin-left: 10%;
 }
 
 
@@ -312,7 +310,6 @@ footer p{
     }
 
     #about-me p{
-        float: none;
         margin: auto;
         padding-right: 10%;
         padding-left: 10%;
