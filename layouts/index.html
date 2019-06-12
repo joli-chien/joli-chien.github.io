@@ -20,8 +20,10 @@
     
 
         {{ .Scratch.Set "elements" .Site.Data.project_order.content }}
-    {{ partial "scrolling-layout.html" . }}
+    <div id="works">
+        {{ partial "scrolling-layout.html" . }}
     {{/*  {{ partial "card-layout.html" . }}  */}}
+</div>
 
 
     {{ partial "scripts.html" }} 
