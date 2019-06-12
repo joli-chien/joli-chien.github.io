@@ -15,10 +15,11 @@
     }
 
     #profile{
+        display: block;
         width: 30%;
         min-width: 20rem;
-        float: left;
-        margin-left: 10%;
+        margin: auto;
+        padding: 2em;
     }
 
     @media screen and (max-width: 700px){
